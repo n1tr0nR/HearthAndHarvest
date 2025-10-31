@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "hearthandharvest",
+	"version": "${version}",
+	"name": "Hearth & Harvest",
+	"description": "",
+	"authors": [
+		"Nitron"
+	],
+	"license": "ARR",
+	"icon": "assets/hearthandharvest/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.nitron.hearth.HearthHarvest"
+		],
+		"client": [
+			"dev.nitron.hearth.client.HearthHarvestClient"
+		]
+	},
+	"mixins": [
+		"hearthandharvest.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

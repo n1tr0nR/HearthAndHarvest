@@ -3,6 +3,8 @@
 	"package": "dev.nitron.hearth.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
+		"HoeItemMixin",
+		"ShovelItemMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
